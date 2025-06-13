@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    width: 100vw;
+    background-color: black;
+    height: 20vh;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+}
+header img{
+    height: 100%;
+}
+body{
+    background-color: rgb(23, 23, 23);
+    overflow: hidden;
+}
+#eenmalig{
+    width: 50vw;
+    border-right: 2px solid rgb(68, 68, 68);
+    height: 73vh;
+}
+#vaker{
+    width: 50vw;
+    height: 73vh;
+}
+main{
+    display: flex;
+}
+section h1{
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    text-align: center;
+    padding-top: 5vh;
+}
+section form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-self: center;
+    margin-top: 10vh;
+    gap: 2vh;
+}
